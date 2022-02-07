@@ -34,11 +34,12 @@ app.use('/fonts', express.static(__dirname + '/node_modules/font-awesome/fonts')
 * Database connection
 */
 const conn = mysql.createConnection({
-  host: 'localhost',
+  host: 'mysql-dev',
   user: 'root',
-  password: '',
+  password: 'root',
   database: 'node_crud'
 });
+;
 
 conn.connect(function(err) {
   if (err){
