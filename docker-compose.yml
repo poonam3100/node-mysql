@@ -22,3 +22,8 @@ services:
       MYSQL_DATABASE: node_crud
     ports:
       - "3306:3306"
+    volumes: 
+      - mysql-dev:/data/db
+volumes:
+  mysql-dev:
+    driver: local
