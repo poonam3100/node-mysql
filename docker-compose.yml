@@ -3,7 +3,7 @@ version: '3'
 services:
   app:
     container_name: docker-node-mysql
-    build: .
+    image: poonam3112/node-mysql:v1
     ports:
       - "8080:3000"
     links:
