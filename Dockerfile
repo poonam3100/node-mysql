@@ -1,5 +1,5 @@
 FROM node:8
-LABEL POONAM PARATE 
+LABEL "application type"="Node-mysql"
 WORKDIR /usr/src/app
 
 COPY package.json ./
