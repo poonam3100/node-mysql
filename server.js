@@ -52,7 +52,7 @@ conn.connect(function(err) {
     /*
     *** GLOBAL site title and base url
     */
-    const siteTitle = 'Manjil Tamang | Simple node crud app with mysql and docker';
+    const siteTitle = 'Simple node crud app with mysql and docker';
 
     /*
     * Express router
